@@ -1,2 +1,5 @@
 Link to the problem :- https://leetcode.com/problems/two-sum/
 In this problem i have used a result array of size two.
+Then i used a nested for loop to compare the index values value to check if they are equal to the target or not.
+So inner loop j is run from j=i+1 and once our desired target is obtain we simply update the result array index value with i and j and return this result array.
+If nothing gets updated then the default value of result that is [0,0] is returned.
